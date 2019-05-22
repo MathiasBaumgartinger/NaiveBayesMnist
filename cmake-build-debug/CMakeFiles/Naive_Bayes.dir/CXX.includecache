@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mathias/Documents/Naive-Bayes/FrequencyTable.h
+string
+-
+list
+-
+vector
+-
+map
+-
+
+/home/mathias/Documents/Naive-Bayes/main.cpp
+iostream
+-
+mnist/mnist_reader.hpp
+/home/mathias/Documents/Naive-Bayes/mnist/mnist_reader.hpp
+FrequencyTable.h
+/home/mathias/Documents/Naive-Bayes/FrequencyTable.h
+
+/home/mathias/Documents/Naive-Bayes/mnist/mnist_reader.hpp
+fstream
+-
+iostream
+-
+string
+-
+vector
+-
+cstdint
+-
+memory
+-
+mnist_reader_common.hpp
+/home/mathias/Documents/Naive-Bayes/mnist/mnist_reader_common.hpp
+
+/home/mathias/Documents/Naive-Bayes/mnist/mnist_reader_common.hpp
+

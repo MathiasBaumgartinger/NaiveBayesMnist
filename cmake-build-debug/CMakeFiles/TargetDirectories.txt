@@ -1,0 +1,3 @@
+/home/mathias/Documents/Naive-Bayes/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mathias/Documents/Naive-Bayes/cmake-build-debug/CMakeFiles/Naive_Bayes.dir
+/home/mathias/Documents/Naive-Bayes/cmake-build-debug/CMakeFiles/edit_cache.dir
