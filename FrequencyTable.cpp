@@ -4,7 +4,6 @@
 
 #include <numeric>
 #include "FrequencyTable.h"
-#include "EntropyCalculator.h"
 #include <map>
 #include <iostream>
 #include <bits/stl_vector.h>

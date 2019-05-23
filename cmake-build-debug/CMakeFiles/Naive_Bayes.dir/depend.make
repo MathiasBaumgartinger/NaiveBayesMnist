@@ -9,10 +9,6 @@ CMakeFiles/Naive_Bayes.dir/BayesClassifier.cpp.o: ../LikelihoodTable.h
 CMakeFiles/Naive_Bayes.dir/Classifier.cpp.o: ../Classifier.cpp
 CMakeFiles/Naive_Bayes.dir/Classifier.cpp.o: ../Classifier.h
 
-CMakeFiles/Naive_Bayes.dir/EntropyCalculator.cpp.o: ../EntropyCalculator.cpp
-CMakeFiles/Naive_Bayes.dir/EntropyCalculator.cpp.o: ../EntropyCalculator.h
-
-CMakeFiles/Naive_Bayes.dir/FrequencyTable.cpp.o: ../EntropyCalculator.h
 CMakeFiles/Naive_Bayes.dir/FrequencyTable.cpp.o: ../FrequencyTable.cpp
 CMakeFiles/Naive_Bayes.dir/FrequencyTable.cpp.o: ../FrequencyTable.h
 

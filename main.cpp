@@ -36,25 +36,6 @@ int main() {
 
     statistics::printConfusionMatrix(matrix);
 
-    /*int rightClassifics = 0;
-    for (int i = 0; i < test_data.size(); i++) {
-        //uint8_t classified = classifier->classify(test_data[0], 100, lht);
-        uint8_t real = test_labels[i];
-        std::cout << "classified: " << (int) classified << " vs. " << (int) real << std::endl;
-        if(classified == real) {
-
-            rightClassifics++;
-        }
-    }
-
-    std::cout << rightClassifics << std::endl;
-    std::cout << test_data.size() << std::endl;*/
-
-
-    //data
-
-    //FrequencyTable fqt();
-
     return 0;
 }
 

@@ -9,29 +9,54 @@
 uint8_t BayesClassifier::classify(std::vector<uint8_t> image, int threshold, LikelihoodTable &lht) {
 
     auto relativeFrequencies = lht.getTable();
-    std::map<uint8_t, double> Classification;
+    std::map<uint8_t, double> classification;
 
 
     for (uint8_t digit = 0; digit <= 9; digit++) {
 
-        Classification[digit] = relativeLabelCount[digit];
-
+        classification[digit] = relativeLabelCount[digit];
         for (uint16_t pixelNumber = 0; pixelNumber < image.size(); pixelNumber++) {
             uint8_t pixel = image[pixelNumber];
 
             if (pixel > threshold) {
-                double probabiltiy;
-                if (relativeFrequencies[pixelNumber][digit] > 0) {
-                    probabiltiy = relativeFrequencies[pixelNumber][digit];
-                } else {
-                    probabiltiy = 1;
+                double probability = 0;
+                if(relativeFrequencies[pixelNumber][digit] > 0) {
+                    probability = relativeFrequencies[pixelNumber][digit];
                 }
+                classification[digit] *= probability * 8;
+                /*for (uint8_t digit = 0; digit <= 9; digit++) {
 
-                Classification[digit] *= probabiltiy * 9;
+                    classification[digit] /= relativeLabelCount[digit];
+                    for (uint16_t pixelNumber = 0; pixelNumber < image.size(); pixelNumber++) {
+                        uint8_t pixel = image[pixelNumber];
+
+                        if (pixel > threshold) {
+                            double probability = 0;
+                            if (relativeFrequencies[pixelNumber][digit] > 0) {
+                                probability = relativeFrequencies[pixelNumber][digit];
+                                classification[digit] /= probability;
+                            }
+                        }
+                    }
+                }*/
             }
         }
     }
-    return findMostCommon(Classification);
+    return findMostCommon(classification);
+}
+
+uint8_t BayesClassifier::findMostCommon(const std::map<uint8_t, double> &pixels) const {
+    double highestProbabilty = 0;
+    uint8_t mostCommonLabel = 0;
+
+    for (const auto entry : pixels) {
+        if (entry.second > highestProbabilty) {
+            highestProbabilty = entry.second;
+            mostCommonLabel = entry.first;
+        }
+    }
+
+    return mostCommonLabel;
 }
 
 void BayesClassifier::setLabelAmounts(const std::vector<std::vector<uint8_t>> &training_images,
@@ -50,19 +75,3 @@ void BayesClassifier::setLabelAmounts(const std::vector<std::vector<uint8_t>> &t
 
 }
 
-uint8_t BayesClassifier::findMostCommon(const std::map<uint8_t, double> &pixels) const {
-
-    float maxValue = -FLT_MAX;
-    uint8_t maxDigit = 0;
-
-    for (const auto entry : pixels) {
-
-        if (entry.first > maxValue) {
-
-            maxValue = entry.first;
-            maxDigit = entry.second;
-        }
-    }
-
-    return maxDigit;
-}

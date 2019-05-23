@@ -96,12 +96,6 @@
 		<Unit filename="/home/mathias/Documents/Naive-Bayes/Classifier.h">
 			<Option target="Naive_Bayes"/>
 		</Unit>
-		<Unit filename="/home/mathias/Documents/Naive-Bayes/EntropyCalculator.cpp">
-			<Option target="Naive_Bayes"/>
-		</Unit>
-		<Unit filename="/home/mathias/Documents/Naive-Bayes/EntropyCalculator.h">
-			<Option target="Naive_Bayes"/>
-		</Unit>
 		<Unit filename="/home/mathias/Documents/Naive-Bayes/FrequencyTable.cpp">
 			<Option target="Naive_Bayes"/>
 		</Unit>

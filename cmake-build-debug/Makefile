@@ -177,33 +177,6 @@ Classifier.cpp.s:
 	$(MAKE) -f CMakeFiles/Naive_Bayes.dir/build.make CMakeFiles/Naive_Bayes.dir/Classifier.cpp.s
 .PHONY : Classifier.cpp.s
 
-EntropyCalculator.o: EntropyCalculator.cpp.o
-
-.PHONY : EntropyCalculator.o
-
-# target to build an object file
-EntropyCalculator.cpp.o:
-	$(MAKE) -f CMakeFiles/Naive_Bayes.dir/build.make CMakeFiles/Naive_Bayes.dir/EntropyCalculator.cpp.o
-.PHONY : EntropyCalculator.cpp.o
-
-EntropyCalculator.i: EntropyCalculator.cpp.i
-
-.PHONY : EntropyCalculator.i
-
-# target to preprocess a source file
-EntropyCalculator.cpp.i:
-	$(MAKE) -f CMakeFiles/Naive_Bayes.dir/build.make CMakeFiles/Naive_Bayes.dir/EntropyCalculator.cpp.i
-.PHONY : EntropyCalculator.cpp.i
-
-EntropyCalculator.s: EntropyCalculator.cpp.s
-
-.PHONY : EntropyCalculator.s
-
-# target to generate assembly for a file
-EntropyCalculator.cpp.s:
-	$(MAKE) -f CMakeFiles/Naive_Bayes.dir/build.make CMakeFiles/Naive_Bayes.dir/EntropyCalculator.cpp.s
-.PHONY : EntropyCalculator.cpp.s
-
 FrequencyTable.o: FrequencyTable.cpp.o
 
 .PHONY : FrequencyTable.o
@@ -300,9 +273,6 @@ help:
 	@echo "... Classifier.o"
 	@echo "... Classifier.i"
 	@echo "... Classifier.s"
-	@echo "... EntropyCalculator.o"
-	@echo "... EntropyCalculator.i"
-	@echo "... EntropyCalculator.s"
 	@echo "... FrequencyTable.o"
 	@echo "... FrequencyTable.i"
 	@echo "... FrequencyTable.s"

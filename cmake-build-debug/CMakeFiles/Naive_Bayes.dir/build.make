@@ -83,22 +83,9 @@ CMakeFiles/Naive_Bayes.dir/FrequencyTable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Naive_Bayes.dir/FrequencyTable.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mathias/Documents/Naive-Bayes/FrequencyTable.cpp -o CMakeFiles/Naive_Bayes.dir/FrequencyTable.cpp.s
 
-CMakeFiles/Naive_Bayes.dir/EntropyCalculator.cpp.o: CMakeFiles/Naive_Bayes.dir/flags.make
-CMakeFiles/Naive_Bayes.dir/EntropyCalculator.cpp.o: ../EntropyCalculator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mathias/Documents/Naive-Bayes/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Naive_Bayes.dir/EntropyCalculator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Naive_Bayes.dir/EntropyCalculator.cpp.o -c /home/mathias/Documents/Naive-Bayes/EntropyCalculator.cpp
-
-CMakeFiles/Naive_Bayes.dir/EntropyCalculator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Naive_Bayes.dir/EntropyCalculator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mathias/Documents/Naive-Bayes/EntropyCalculator.cpp > CMakeFiles/Naive_Bayes.dir/EntropyCalculator.cpp.i
-
-CMakeFiles/Naive_Bayes.dir/EntropyCalculator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Naive_Bayes.dir/EntropyCalculator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mathias/Documents/Naive-Bayes/EntropyCalculator.cpp -o CMakeFiles/Naive_Bayes.dir/EntropyCalculator.cpp.s
-
 CMakeFiles/Naive_Bayes.dir/Classifier.cpp.o: CMakeFiles/Naive_Bayes.dir/flags.make
 CMakeFiles/Naive_Bayes.dir/Classifier.cpp.o: ../Classifier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mathias/Documents/Naive-Bayes/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Naive_Bayes.dir/Classifier.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mathias/Documents/Naive-Bayes/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Naive_Bayes.dir/Classifier.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Naive_Bayes.dir/Classifier.cpp.o -c /home/mathias/Documents/Naive-Bayes/Classifier.cpp
 
 CMakeFiles/Naive_Bayes.dir/Classifier.cpp.i: cmake_force
@@ -111,7 +98,7 @@ CMakeFiles/Naive_Bayes.dir/Classifier.cpp.s: cmake_force
 
 CMakeFiles/Naive_Bayes.dir/LikelihoodTable.cpp.o: CMakeFiles/Naive_Bayes.dir/flags.make
 CMakeFiles/Naive_Bayes.dir/LikelihoodTable.cpp.o: ../LikelihoodTable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mathias/Documents/Naive-Bayes/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Naive_Bayes.dir/LikelihoodTable.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mathias/Documents/Naive-Bayes/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Naive_Bayes.dir/LikelihoodTable.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Naive_Bayes.dir/LikelihoodTable.cpp.o -c /home/mathias/Documents/Naive-Bayes/LikelihoodTable.cpp
 
 CMakeFiles/Naive_Bayes.dir/LikelihoodTable.cpp.i: cmake_force
@@ -124,7 +111,7 @@ CMakeFiles/Naive_Bayes.dir/LikelihoodTable.cpp.s: cmake_force
 
 CMakeFiles/Naive_Bayes.dir/BayesClassifier.cpp.o: CMakeFiles/Naive_Bayes.dir/flags.make
 CMakeFiles/Naive_Bayes.dir/BayesClassifier.cpp.o: ../BayesClassifier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mathias/Documents/Naive-Bayes/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Naive_Bayes.dir/BayesClassifier.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mathias/Documents/Naive-Bayes/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Naive_Bayes.dir/BayesClassifier.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Naive_Bayes.dir/BayesClassifier.cpp.o -c /home/mathias/Documents/Naive-Bayes/BayesClassifier.cpp
 
 CMakeFiles/Naive_Bayes.dir/BayesClassifier.cpp.i: cmake_force
@@ -139,7 +126,6 @@ CMakeFiles/Naive_Bayes.dir/BayesClassifier.cpp.s: cmake_force
 Naive_Bayes_OBJECTS = \
 "CMakeFiles/Naive_Bayes.dir/main.cpp.o" \
 "CMakeFiles/Naive_Bayes.dir/FrequencyTable.cpp.o" \
-"CMakeFiles/Naive_Bayes.dir/EntropyCalculator.cpp.o" \
 "CMakeFiles/Naive_Bayes.dir/Classifier.cpp.o" \
 "CMakeFiles/Naive_Bayes.dir/LikelihoodTable.cpp.o" \
 "CMakeFiles/Naive_Bayes.dir/BayesClassifier.cpp.o"
@@ -149,13 +135,12 @@ Naive_Bayes_EXTERNAL_OBJECTS =
 
 Naive_Bayes: CMakeFiles/Naive_Bayes.dir/main.cpp.o
 Naive_Bayes: CMakeFiles/Naive_Bayes.dir/FrequencyTable.cpp.o
-Naive_Bayes: CMakeFiles/Naive_Bayes.dir/EntropyCalculator.cpp.o
 Naive_Bayes: CMakeFiles/Naive_Bayes.dir/Classifier.cpp.o
 Naive_Bayes: CMakeFiles/Naive_Bayes.dir/LikelihoodTable.cpp.o
 Naive_Bayes: CMakeFiles/Naive_Bayes.dir/BayesClassifier.cpp.o
 Naive_Bayes: CMakeFiles/Naive_Bayes.dir/build.make
 Naive_Bayes: CMakeFiles/Naive_Bayes.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mathias/Documents/Naive-Bayes/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Naive_Bayes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mathias/Documents/Naive-Bayes/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Naive_Bayes"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Naive_Bayes.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
