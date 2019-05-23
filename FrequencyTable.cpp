@@ -12,32 +12,28 @@
 #include <list>
 
 
-FrequencyTable::FrequencyTable(const std::vector<std::vector<std::string>> &data, int column) {
+FrequencyTable::FrequencyTable(std::vector<std::vector<uint8_t>> images, std::vector<uint8_t> labels, int threshold) {
 
+    for (int i = 0; i < images.size(); i++) {
+        uint8_t label = labels[i];
+        auto image = images[i];
+        for (int pixel = 0; pixel < 784; pixel++) {
 
-    for (const auto &line : data) {
-
-
-        std::string attributeVal = line[column];
-        std::string resultVal = line.back();
-
-        attributeFrequencies[attributeVal][resultVal] += 1;
+            if (pixel > threshold) {
+                attributeFrequencies[pixel][label]++;
+            }
+        }
     }
 }
 
 
-std::list<std::string> FrequencyTable::getAttributes() {
-    auto attributes = std::list<std::string>();
 
-    for (const auto &attribute : attributeFrequencies) {
-        attributes.push_back(attribute.first);
-    }
-
-    return attributes;
-}
-
-std::map<std::string, std::map<std::string, int>> FrequencyTable::getAttributeFrequencies() {
+std::map<std::uint16_t, std::map<std::uint8_t , int>> FrequencyTable::getAttributeFrequencies() {
     return this->attributeFrequencies;
+}
+
+void FrequencyTable::setAttributeFrequencies(std::map<std::uint16_t, std::map<std::uint8_t, int>> frequencies) {
+    this->attributeFrequencies = frequencies;
 }
 
 

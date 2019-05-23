@@ -12,21 +12,18 @@
 
 class FrequencyTable {
 public:
-    FrequencyTable(const std::vector<std::vector<std::string>> &data, int column);
 
 
-    std::map<std::string, std::map<std::string, int>> getAttributeFrequencies();
+    FrequencyTable(std::vector<std::vector<uint8_t>> images, std::vector<uint8_t> labels, int column);
+
+    std::map<std::uint16_t , std::map<std::uint8_t , int>> getAttributeFrequencies();
+    void setAttributeFrequencies(std::map<std::uint16_t, std::map<std::uint8_t , int>>);
 
 
 private:
     // Maps attribute values to the frequencies of an outcome
-    std::map<std::string, std::map<std::string, int>> attributeFrequencies;
+    std::map<std::uint16_t, std::map<std::uint8_t , int>> attributeFrequencies;
 
-
-
-    int attributeCount;
-
-    std::list<std::string> getAttributes();
 };
 
 #endif //NAIVE_BAYES_FREQUENCYTABLE_H

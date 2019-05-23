@@ -123,6 +123,33 @@ Naive_Bayes/fast:
 	$(MAKE) -f CMakeFiles/Naive_Bayes.dir/build.make CMakeFiles/Naive_Bayes.dir/build
 .PHONY : Naive_Bayes/fast
 
+BayesClassifier.o: BayesClassifier.cpp.o
+
+.PHONY : BayesClassifier.o
+
+# target to build an object file
+BayesClassifier.cpp.o:
+	$(MAKE) -f CMakeFiles/Naive_Bayes.dir/build.make CMakeFiles/Naive_Bayes.dir/BayesClassifier.cpp.o
+.PHONY : BayesClassifier.cpp.o
+
+BayesClassifier.i: BayesClassifier.cpp.i
+
+.PHONY : BayesClassifier.i
+
+# target to preprocess a source file
+BayesClassifier.cpp.i:
+	$(MAKE) -f CMakeFiles/Naive_Bayes.dir/build.make CMakeFiles/Naive_Bayes.dir/BayesClassifier.cpp.i
+.PHONY : BayesClassifier.cpp.i
+
+BayesClassifier.s: BayesClassifier.cpp.s
+
+.PHONY : BayesClassifier.s
+
+# target to generate assembly for a file
+BayesClassifier.cpp.s:
+	$(MAKE) -f CMakeFiles/Naive_Bayes.dir/build.make CMakeFiles/Naive_Bayes.dir/BayesClassifier.cpp.s
+.PHONY : BayesClassifier.cpp.s
+
 Classifier.o: Classifier.cpp.o
 
 .PHONY : Classifier.o
@@ -267,6 +294,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Naive_Bayes"
 	@echo "... edit_cache"
+	@echo "... BayesClassifier.o"
+	@echo "... BayesClassifier.i"
+	@echo "... BayesClassifier.s"
 	@echo "... Classifier.o"
 	@echo "... Classifier.i"
 	@echo "... Classifier.s"

@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+/home/mathias/Documents/Naive-Bayes/BayesClassifier.cpp
+cfloat
+-
+BayesClassifier.h
+/home/mathias/Documents/Naive-Bayes/BayesClassifier.h
+LikelihoodTable.h
+/home/mathias/Documents/Naive-Bayes/LikelihoodTable.h
+
+/home/mathias/Documents/Naive-Bayes/BayesClassifier.h
+map
+-
+vector
+-
+LikelihoodTable.h
+/home/mathias/Documents/Naive-Bayes/LikelihoodTable.h
+
 /home/mathias/Documents/Naive-Bayes/FrequencyTable.h
 string
 -
@@ -16,29 +32,9 @@ vector
 map
 -
 
-/home/mathias/Documents/Naive-Bayes/main.cpp
-iostream
--
-mnist/mnist_reader.hpp
-/home/mathias/Documents/Naive-Bayes/mnist/mnist_reader.hpp
+/home/mathias/Documents/Naive-Bayes/LikelihoodTable.h
 FrequencyTable.h
 /home/mathias/Documents/Naive-Bayes/FrequencyTable.h
-
-/home/mathias/Documents/Naive-Bayes/mnist/mnist_reader.hpp
-fstream
--
-iostream
--
-string
--
-vector
--
-cstdint
--
 memory
 -
-mnist_reader_common.hpp
-/home/mathias/Documents/Naive-Bayes/mnist/mnist_reader_common.hpp
-
-/home/mathias/Documents/Naive-Bayes/mnist/mnist_reader_common.hpp
 

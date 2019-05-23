@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/mathias/Documents/Naive-Bayes/BayesClassifier.cpp" "/home/mathias/Documents/Naive-Bayes/cmake-build-debug/CMakeFiles/Naive_Bayes.dir/BayesClassifier.cpp.o"
   "/home/mathias/Documents/Naive-Bayes/Classifier.cpp" "/home/mathias/Documents/Naive-Bayes/cmake-build-debug/CMakeFiles/Naive_Bayes.dir/Classifier.cpp.o"
   "/home/mathias/Documents/Naive-Bayes/EntropyCalculator.cpp" "/home/mathias/Documents/Naive-Bayes/cmake-build-debug/CMakeFiles/Naive_Bayes.dir/EntropyCalculator.cpp.o"
   "/home/mathias/Documents/Naive-Bayes/FrequencyTable.cpp" "/home/mathias/Documents/Naive-Bayes/cmake-build-debug/CMakeFiles/Naive_Bayes.dir/FrequencyTable.cpp.o"

@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/mathias/Documents/Naive-Bayes/BayesClassifier.cpp">
+			<Option target="Naive_Bayes"/>
+		</Unit>
+		<Unit filename="/home/mathias/Documents/Naive-Bayes/BayesClassifier.h">
+			<Option target="Naive_Bayes"/>
+		</Unit>
 		<Unit filename="/home/mathias/Documents/Naive-Bayes/Classifier.cpp">
 			<Option target="Naive_Bayes"/>
 		</Unit>
@@ -109,6 +115,9 @@
 			<Option target="Naive_Bayes"/>
 		</Unit>
 		<Unit filename="/home/mathias/Documents/Naive-Bayes/main.cpp">
+			<Option target="Naive_Bayes"/>
+		</Unit>
+		<Unit filename="/home/mathias/Documents/Naive-Bayes/statistics.hpp">
 			<Option target="Naive_Bayes"/>
 		</Unit>
 		<Unit filename="/home/mathias/Documents/Naive-Bayes/CMakeLists.txt">

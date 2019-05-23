@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Naive_Bayes.dir/EntropyCalculator.cpp.o"
   "CMakeFiles/Naive_Bayes.dir/Classifier.cpp.o"
   "CMakeFiles/Naive_Bayes.dir/LikelihoodTable.cpp.o"
+  "CMakeFiles/Naive_Bayes.dir/BayesClassifier.cpp.o"
   "Naive_Bayes.pdb"
   "Naive_Bayes"
 )

@@ -7,16 +7,28 @@
 
 
 #include "FrequencyTable.h"
+#include <memory>
 
 class LikelihoodTable {
 public:
-    LikelihoodTable(FrequencyTable frequencyTable);
+    LikelihoodTable(std::vector<std::vector<uint8_t>> images, std::vector<uint8_t> labels, int threshold);
+
+    std::map<std::uint16_t, std::map<std::uint8_t, double>> getTable();
+    std::vector<int> getColAmounts ();
+    void setAttributeFrequencies(std::map<std::uint16_t, std::map<std::uint8_t , int>>);
+
+    double getColumnAmount(uint8_t attribute, uint8_t result, FrequencyTable fqt);
+    void setColumnAmounts();
+
+    void makeRelativeAttributeFrequencies();
 
 private:
-    std::map<std::string, std::map<std::string, double>> relativeAttributeFrequencies;
+    std::map<std::uint16_t, std::map<std::uint8_t , int>>* attributeFrequencies;
+    std::map<std::uint16_t, std::map<std::uint8_t, double>> relativeAttributeFrequencies;
+    std::vector<int> colAmounts = std::vector<int>(9, 0);
 
 
-    double getLikelihood(std::string attribute, std::string result, FrequencyTable ft);
+
 };
 
 
